@@ -1,4 +1,6 @@
 library(stringr)
+library(dplyr)
+library(data.table)
 
 mouse.pos <- fread("../data/mouse_positive.bed") %>% setNames(c("chr", "start", "end"))
 mouse.pos$start <- as.character(mouse.pos$start)

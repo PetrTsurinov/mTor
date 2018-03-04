@@ -1,0 +1,4 @@
+*genes.gtf - coordinates of genes from given annotation (including lncRNAs, miRNAs and all that trash)
+*.enh.genes.csv - data from VISTA enhancer browser, given enhancers are positive, their bracketing genes, coordinates
+*_positive.bed - the same as previous, just coordinates in bed format
+*genes.gtf - annotations of given genome version from gencode
